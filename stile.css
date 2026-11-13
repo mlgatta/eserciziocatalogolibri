@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body {
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 16px;
+}
+
+
+table {
+	border: 2px solid #e0e0e0;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+
+td {
+	text-align: center; 
+	border-bottom: 2px solid #e0e0e0;
+	border-right: 2px solid #e0e0e0;
+	vertical-align: top;
+	width: 300px;
+}
+
+.foto {
+	float: top;
+	width: 80%;
+    height: auto;
+    margin-bottom: 6px;
+}
+
+.titolo {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 6px;
+}
+
+.casa-editrice {
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.prezzo {
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 4px 8px;
+	float: left;
+}
+
+.carrello {
+	float: right;
+	background-color: #DC143C;
+	color: white;
+	padding: 6px 10px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+}
+
+.carrello:hover {
+    background-color: #800000;
+}
